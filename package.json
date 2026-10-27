@@ -1,0 +1,47 @@
+{
+  "name": "@local/dsh-desktop-wallpaper",
+  "version": "1.1.0",
+  "description": "Use the Windows desktop wallpaper, a custom image, or a looping video as the full-window DSH background.",
+  "type": "module",
+  "author": "zhg",
+  "license": "MIT",
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "wallpaper",
+    "desktop-wallpaper",
+    "video-wallpaper"
+  ],
+  "engines": {
+    "dsh": ">=0.2.1-rc.3"
+  },
+  "scripts": {
+    "check": "node --check index.js && node --check client.js"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  }
+}
