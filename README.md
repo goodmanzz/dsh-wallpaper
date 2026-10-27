@@ -7,6 +7,9 @@
 <p align="center">把 Windows 桌面壁纸、图片或循环视频铺满整个 DSH 窗口。</p>
 
 > A DSH bundle that turns the Windows desktop wallpaper, a local image, or a looping video into one continuous full-window background for DeepSeek Harness.
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/1f16345e-1712-4644-bef7-bc960084c291" />
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/4d9c8f83-5790-4b17-8728-d424371ac360" />
+
 
 ## 功能
 
